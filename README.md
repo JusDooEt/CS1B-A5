@@ -1,6 +1,6 @@
 # Movie List
 ## About 
-This project was used as practice for reading big files and storing the data on a linked list stack. The program asks the user for a file to read from and will attempt to locate the file and if found it will read and store the data found in the file. The program will then format the data and store it on a separate output file.
+This project was used as practice for reading big files and storing the data on a linked list stack. The program asks the user for a file to read from and will attempt to locate the file and if found it will read and store the data found in the file. The program will then format the data and store it on a separate output file named by the user.
 
 ## Input Format
 ```
@@ -34,7 +34,7 @@ a painful past is revealed and a new hope begins.
 - StackList
   - The base class of this program is the StackList class which includes all of the necessary methods for manipulating a stack linked list like Push(), Pop(), IsEmpty(), Peek(), and Size(). This class uses a struct called DVDNode to create the list. 
 - MovieList
-  - The child class to StackList is MovieList. The MovieList class inherits all of the attributes defined in the StackList class and adds two methods to create and output the stack of DVDNodes. It also has private methods to format the data read from the input file like WordWrap and FormatCheck.
+  - The child class to StackList is MovieList. The MovieList class inherits all of the attributes defined in the StackList class and adds two public methods to create and output the stack of DVDNodes. It also has private methods to format the data read from the input file like WordWrap and FormatCheck.
   - WordWrap Method
     - This method will check the movie description length and determine where to add new line characters to the formatted string. The method will store each word in a string variable that will add to a line variable. If the next word length would cause the line length to be over the max line length the method will add the current line to the overall description string with a new line character. After adding to the main description string the line string will clear and the next word will be added to the cleared line string. 
   - FormatCheck Method
