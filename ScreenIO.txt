@@ -1,0 +1,11 @@
+***************************************************************
+*   PROGRAMMED BY : Cameron Abo
+*   STUDENT ID    : 387130
+*   CLASS         : CS1B - MW - 7:30p
+*   ASSIGNMENT #5 : DVD Movie List Intro to OOP
+***************************************************************
+What input file would you like to use?: InputFile.txt
+What output file would you like to use?: OutputFile.txt
+
+
+Writing output file OutputFile.txt
